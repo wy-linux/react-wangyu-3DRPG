@@ -1,0 +1,14 @@
+.stick-container {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, .2);
+    cursor: pointer;
+    touch-action: manipulation;
+}
+.stick-container:active {
+    background: rgba(0, 0, 0, .5);
+}

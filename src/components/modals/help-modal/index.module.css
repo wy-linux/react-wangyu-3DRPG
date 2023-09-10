@@ -1,0 +1,19 @@
+.help-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-y: auto;
+}
+.instruction-text {
+    margin-bottom: 20px;
+}
+.instruction-text .key-text {
+    font-size: 20px;
+    margin-right: 20px;
+}
+.instruction-text .description-text {
+    font-size: 18px;
+}

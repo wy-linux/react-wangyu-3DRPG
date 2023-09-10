@@ -1,0 +1,30 @@
+.content-text,
+.content-img {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.content-text {
+    overflow-y: auto;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.content-img  {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-text .title {
+    font-size: 24px;
+}
+.content-text .author {
+    margin-top: 15px;
+}
+.content-text .description {
+    margin-top: 20px;
+    line-height: 30px;
+}
+.content-img img {
+    width: 100%;
+}

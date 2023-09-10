@@ -1,0 +1,13 @@
+.stick {
+    top: 13%;
+    left: 3%;
+    width: 60px;
+    height: 60px;
+}
+.github-stick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;    
+}

@@ -1,0 +1,79 @@
+.progress-container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 10;
+    background: #000;
+}
+.progress-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin-bottom: 30px;  
+    margin-right: 20px;
+}
+.progress-title h1 {
+    margin-left: -10px;
+    margin-bottom: 0;
+    text-align: center;
+    color: #fff;  
+}
+.progress-title img {
+    height: 60px;
+}
+.progress-container :global(.ant-btn-primary) {
+    margin-top: 20px;
+    width: 60%;
+    min-width: 380px;
+    font-weight: 500;
+    font-size: 20px;
+    height: 50px;
+    background-color: #000;
+    border: 2px solid #fff;
+    border-radius: 15px;
+}
+.progress-container :global(.ant-btn-primary):hover {
+    background-color: #171616;
+}
+.finish-box {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.finish-box .finish-text {
+    text-align: center;
+    padding: 0 30px;
+    font-size: 18px;
+}
+.progress-container :global(.ant-progress-text) svg {
+    color: #fff;
+}
+.progress-container :global(.ant-progress-text) {
+    color: #fff;
+}
+.loading-box {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.loading-box .text {
+    margin-right: 5px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.loading-box svg {
+    color: #fff;
+}
